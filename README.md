@@ -1,9 +1,9 @@
-# Clear Stream Guardian 🌊
+# Clear Stream Guardian 
 
 ESP32-based water quality monitoring system.  
 Reads **Temperature (DS18B20)**, **pH**, **TDS**, and **Turbidity**, then displays on an OLED and (optionally) uploads to Blynk.
 
-## 🚀 Features
+##  Features
 - DS18B20 temperature sensor
 - Analog pH probe
 - Analog TDS probe
@@ -12,7 +12,7 @@ Reads **Temperature (DS18B20)**, **pH**, **TDS**, and **Turbidity**, then displa
 - Optional Blynk cloud integration
 - Calibration sketches for pH, TDS, and Turbidity included
 
-## 📦 Hardware Connections
+##  Hardware Connections
 
 | Sensor / Module  | ESP32 Pin |
 |------------------|-----------|
@@ -32,12 +32,12 @@ Reads **Temperature (DS18B20)**, **pH**, **TDS**, and **Turbidity**, then displa
 - Adafruit GFX
 - Blynk (optional)
 
-## ⚙️ Calibration
+##  Calibration
 - Use calibration sketches in `/calibration` with standard solutions.
 - Update constants in `ClearStreamGuardian.ino` after calibration.
 
-## 📡 Blynk Integration
-Uncomment `#define USE_BLYNK` and add your credentials.
+## Web display
+In this, I have added .html for viewing the results, you can add as per your requirements
 
 ## 📝 License
 MIT License.
