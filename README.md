@@ -32,9 +32,7 @@ Reads **Temperature (DS18B20)**, **pH**, **TDS**, and **Turbidity**, then displa
 - Adafruit GFX
 - Blynk (optional)
 
-##  Calibration
-- Use calibration sketches in `/calibration` with standard solutions.
-- Update constants in `ClearStreamGuardian.ino` after calibration.
+
 
 ## Web display
 In this, I have added .html for viewing the results, you can add as per your requirements
